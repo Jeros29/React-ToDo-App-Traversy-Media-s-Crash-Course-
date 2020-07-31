@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 1em;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  display: inline-block;
+
+  background-color: #444;
+  color: #FFF;
+  padding: .5em 1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #666;
+}
